@@ -1,8 +1,8 @@
 # Curso Básico de JavaScript
-*Si alguna respuesta esta incorrecta puedes realizar un pull request para colocar la respuesta correcta :D.*
+*Si alguna respuesta está incorrecta, puedes realizar un pull request para colocar la respuesta correcta :D.*
 #### ¿Qué es un array?
 		 Es una estructura de datos de tipo objeto.
-###### Razón: Son estructuras de datos de tipo objeto. Pueden contener, números, strings, otros arrays, otros objetos, etc.
+###### Razón: Son estructuras de datos de tipo objeto. Pueden contener números, strings, otros arrays, otros objetos, etc.
 ###### Vídeo: [Arrays](https://platzi.com/clases/1814-basico-javascript/26303-arrays/ "Arrays")
 ------------
 #### ¿Qué resultado podría esperar de esta validación?
@@ -13,10 +13,12 @@
 ###### Vídeo: [Operadores: Asignación, Comparación y Aritméticos](https://platzi.com/clases/1814-basico-javascript/26300-operadores-asignacion-comparacion-y-aritmeticos/ "Operadores: Asignación, Comparación y Aritméticos")
 ------------
 #### ¿Es correcta la siguiente sentencia?
-> switch (false) {
-> 	case false: console.log("Soy falso :(")
-> 	case true: console.log("Soy verdadero!")
->}
+~~~
+switch (false) {
+ 	case false: console.log("Soy falso :(")
+ 	case true: console.log("Soy verdadero!")
+}
+~~~
 
 		 No.
 ###### Razón: Hay que colocar la sentencia break; después de cada caso. Si no se coloca, el código ejecutará todos los casos dento del switch.
@@ -34,7 +36,7 @@
 ###### Razón: No se está usando la sintaxis adecuada en JavaScript para asignar un valor. 
 ###### Vídeo: [Operadores: Asignación, Comparación y Aritméticos](https://platzi.com/clases/1814-basico-javascript/26300-operadores-asignacion-comparacion-y-aritmeticos/ "Operadores: Asignación, Comparación y Aritméticos")
 ------------
-#### ¿¿Qué es una variable?
+#### ¿Qué es una variable?
 		 Es la representación de un espacio en memoria.
 ###### Razón: Cuando creamos una variable reservamos un lugar en memoria para que guarde un valor.
 ###### Vídeo: [Variables en JavaScript](https://platzi.com/clases/1814-basico-javascript/26293-variables/ "Variables en JavaScript")
@@ -69,24 +71,26 @@
 ###### Vídeo: [¿Qué es JavaScript?](https://platzi.com/clases/1814-basico-javascript/26290-que-es-javascript/ "¿Qué es JavaScript?")
 ------------
 #### ¿Cómo se le llama al siguiente ejemplo de funciones?
-> function myfunction() {
->	...
-> }
-
+~~~
+function myfunction() {
+	...
+}
+~~~
 		 Función declarativa.
 ###### Razón: Las funciones declarativas son aquellas que se declaran o definen con la palabra reservada function, seguida del nombre que queramos darle a la función, entre paréntesis la lista de parámetros de la función separados por comas, y entre llaves las declaraciones de JavaScript que definen la función.
 ###### Vídeo: [Funciones en JavaScript](https://platzi.com/clases/1814-basico-javascript/26294-funciones/ "Funciones en JavaScript")
 ------------
 #### ¿Cómo podemos crear notas o comentarios en nuestro JavaScript?
 		 // …
-###### Razón: Para generar comentarios en JavaScript que no serán corridos como código por el navegador, es escribe doble slash "//".
+###### Razón: Para generar comentarios en JavaScript que no serán corridos como código por el navegador, se escribe doble slash "//".
 ###### Vídeo: [Variables en JavaScript](https://platzi.com/clases/1814-basico-javascript/26293-variables/ "Variables en JavaScript")
 ------------
 #### ¿¿Cómo se llama al siguiente ejemplo de funciones?
-> var myFunction = function() {
->	...
-> }
-
+~~~
+var myFunction = function() {
+	...
+}
+~~~
 		 Función expresiva.
 ###### Razón: Las funciones expresivas son aquellas que se declaran o definen con la palabra reservada var, seguida del nombre que queramos darle a la variable que contendrá a la función, luego la palabra reservada function, entre paréntesis la lista de parámetros de la función separados por comas, y entre llaves las declaraciones de JavaScript que definen la función. La función puede o no tener un nombre, en caso de no tenerlo, es llamada función anónima.
 ###### Vídeo: [Funciones en JavaScript](https://platzi.com/clases/1814-basico-javascript/26294-funciones/ "Funciones en JavaScript")
