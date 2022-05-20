@@ -7,6 +7,7 @@
 ------------
 #### ¿Qué resultado podría esperar de esta validación?
 > 4 == "4"
+
 		 TRUE 
 ###### Razón: El operador de comparación con doble símbolo de igualdad compara solo los valores, sin tomar en cuenta su tipo. Ambos valores son 6, por ello el resultado de compararlos con este operador es true.
 ###### Vídeo: [Operadores: Asignación, Comparación y Aritméticos](https://platzi.com/clases/1814-basico-javascript/26300-operadores-asignacion-comparacion-y-aritmeticos/ "Operadores: Asignación, Comparación y Aritméticos")
@@ -16,6 +17,7 @@
 > 	case false: console.log("Soy falso :(")
 > 	case true: console.log("Soy verdadero!")
 >}
+
 		 No.
 ###### Razón: Hay que colocar la sentencia break; después de cada caso. Si no se coloca, el código ejecutará todos los casos dento del switch.
 ###### Vídeo: [Switch](https://platzi.com/clases/1814-basico-javascript/26302-switch/31089-html-anatomia-de-una-pagina-web/ "Switch")
@@ -27,6 +29,7 @@
 ------------
 #### ¿Qué resultado podría esperar de esta validación?
 > 1 = "1"
+
 		 Syntax Error.
 ###### Razón: No se está usando la sintaxis adecuada en JavaScript para asignar un valor. 
 ###### Vídeo: [Operadores: Asignación, Comparación y Aritméticos](https://platzi.com/clases/1814-basico-javascript/26300-operadores-asignacion-comparacion-y-aritmeticos/ "Operadores: Asignación, Comparación y Aritméticos")
@@ -43,6 +46,7 @@
 ------------
 #### ¿Qué resultado podría esperar de esta validación?
 > 6 === "6"
+
 		 FALSE.
 ###### Razón: El operador de comparación con triple símbolo de igualdad compara, además de los valores, el tipo de valores. El primer valor 6 es de tipo número y el segundo es de tipo string, por ello el resultado de compararlos con este operador es false.
 ###### Vídeo: [Operadores: Asignación, Comparación y Aritméticos](https://platzi.com/clases/1814-basico-javascript/26300-operadores-asignacion-comparacion-y-aritmeticos/ "[Operadores: Asignación, Comparación y Aritméticos")
@@ -54,6 +58,7 @@
 ------------
 #### ¿Cómo se le conoce a la siguiente sentencia?
 > var nombre;
+
 		 Declarar una variable.
 ###### Razón: Para declarar una variable se escribe la palabra reservada var seguida del nombre que le queramos dar a la variable y por último un punto y coma (;).
 ###### Vídeo: [Variables en JavaScript](https://platzi.com/clases/1814-basico-javascript/26293-variables/ "Variables en JavaScript")
@@ -67,6 +72,7 @@
 > function myfunction() {
 >	...
 > }
+
 		 Función declarativa.
 ###### Razón: Las funciones declarativas son aquellas que se declaran o definen con la palabra reservada function, seguida del nombre que queramos darle a la función, entre paréntesis la lista de parámetros de la función separados por comas, y entre llaves las declaraciones de JavaScript que definen la función.
 ###### Vídeo: [Funciones en JavaScript](https://platzi.com/clases/1814-basico-javascript/26294-funciones/ "Funciones en JavaScript")
@@ -80,12 +86,14 @@
 > var myFunction = function() {
 >	...
 > }
+
 		 Función expresiva.
 ###### Razón: Las funciones expresivas son aquellas que se declaran o definen con la palabra reservada var, seguida del nombre que queramos darle a la variable que contendrá a la función, luego la palabra reservada function, entre paréntesis la lista de parámetros de la función separados por comas, y entre llaves las declaraciones de JavaScript que definen la función. La función puede o no tener un nombre, en caso de no tenerlo, es llamada función anónima.
 ###### Vídeo: [Funciones en JavaScript](https://platzi.com/clases/1814-basico-javascript/26294-funciones/ "Funciones en JavaScript")
 ------------
 #### ¿Cómo se le conoce a la siguiente sentencia?
 > nombre = "Diego"
+
 		 Inicializar una variable.
 ###### Razón: Inicializar una variable consiste en escribir el nombre de la variable, seguido del símbolo de igualdad y luego el valor que se le asignará.
 ###### Vídeo: [Variables en JavaScript](https://platzi.com/clases/1814-basico-javascript/26293-variables/ "Variables en JavaScript")
